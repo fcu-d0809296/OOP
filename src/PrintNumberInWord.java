@@ -14,6 +14,7 @@ public class PrintNumberInWord {
     }else {
       System.out.printf("\"%s\"",list[i-1]);
     }
+    scanner.close();
   }
 
 }
