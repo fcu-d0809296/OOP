@@ -14,5 +14,4 @@ public class KeyboardScanner {
   	String c = scanner.next();
   	System.out.printf("Hi %s, the multiplication of %d and %f is %.2e", c,a,b,b);
 	}
-
 }
