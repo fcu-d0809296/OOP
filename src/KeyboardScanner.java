@@ -11,8 +11,8 @@ public class KeyboardScanner {
     System.out.println("Enter a float point number: ");
     float b = scanner.nextFloat();
     System.out.println("Enter a you name: ");
-  	String c = scanner.nextLine();
-  	System.out.println("Hi %s, the multiplication of %d and %f is %e. \r\n" ,c,a,b,b);
+  	String c = scanner.next();
+  	System.out.printf("Hi %s, the multiplication of %d and %f is %.2e", c,a,b,b);
 	}
 
 }
