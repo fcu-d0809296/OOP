@@ -9,7 +9,7 @@ public class StringComparator {
     System.out.println("Enter a string2: ");
     String s2 = scanner.next();
     
-    if (s1.compareTo(s2) > 0) {
+    if (s1.equalsIgnoreCase(s2) ) {
       System.out.println("The two strings are the same.");
     } else {
       System.out.println("The two strings are not the same.");
